@@ -1,0 +1,41 @@
+
+.yellow-bg {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.gray-bg {
+    background-color: gray;
+}
+
+#year {
+    color: blue;
+    font-style: italic;
+}
+
+#box {
+    border: 2px solid gray;
+    background-color: #eeeeee;
+    width: 400px;
+    height: 80px;
+    padding: 5px;
+}
+/* style/style.css */
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    font-size: 20px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* ทำให้ hover แล้วทั้งแถวมีพื้นหลังฟ้า */
+tr:hover {
+    background-color: #00e6e6; /* สีฟ้าอ่อน */
+    cursor: pointer;
+}
