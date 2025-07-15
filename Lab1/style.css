@@ -1,28 +1,36 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
 
 table {
   border-collapse: collapse;
   width: 100%;
+  
 }
 
-th, td {
-  border: 1px solid #333;
-  padding: 8px 12px;
+
+tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+.top{
+  border: 2px solid black;
+  border-bottom: unset;
+ 
+  
+}
+.mid{
+  border: solid black 2px;
+  border-top: 1px solid #a7a6a6;;
+  border-bottom: 1px solid #a7a6a6;;
+}
+.bottom{
+  border: 2px solid black;
+  border-top: 1px solid #a7a6a6; ;
+}
+td, th {
+  border: 1px solid #a7a6a6;
   text-align: center;
+  padding: 10px 8px;
 }
 
-th {
-  background-color: #eee;
-}
-
-tbody th {
-  background-color: #f8f8f8;
-}
-
-a {
-  color: blue;
-  text-decoration: underline;
+p{
+    text-align: center;
 }
